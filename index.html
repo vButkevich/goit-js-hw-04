@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>got-js-hw-04</title>
+  </head>
+
+  <body>
+    <h1>got-js-hw-04</h1>
+
+    <hr />
+    <h2>task1</h2>
+    <pre>
+        Оголошена функція isEnoughCapacity(products, containerSize)
+        Виклик isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8) повертає true
+        Виклик isEnoughCapacity({ apples: 4, grapes: 6, lime: 16 }, 12) повертає false
+        Виклик isEnoughCapacity({ apples: 1, lime: 5, tomatoes: 3 }, 14) повертає true
+        Виклик isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7) повертає false
+    </pre>
+    <hr />
+
+    <hr />
+    <h2>task-2</h2>
+    <pre>
+        На що буде звертати увагу ментор при перевірці:
+        Оголошена функція calcAverageCalories(days)
+        Такий виклик функції calcAverageCalories повертає 3180
+        calcAverageCalories([
+        { day: "monday", calories: 3010 },
+        { day: "tuesday", calories: 3200 },
+        { day: "wednesday", calories: 3120 },
+        { day: "thursday", calories: 2900 },
+        { day: "friday", calories: 3450 },
+        { day: "saturday", calories: 3280 },
+        { day: "sunday", calories: 3300 }
+        ])
+
+        Такий виклик функції calcAverageCalories повертає 2270
+        calcAverageCalories([
+        { day: "monday", calories: 2040 },
+        { day: "tuesday", calories: 2270 },
+        { day: "wednesday", calories: 2420 },
+        { day: "thursday", calories: 1900 },
+        { day: "friday", calories: 2370 },
+        { day: "saturday", calories: 2280 },
+        { day: "sunday", calories: 2610 }
+        ])
+
+        Такий виклик функції calcAverageCalories повертає 0
+        calcAverageCalories([])
+    </pre>
+    <hr />
+
+    <hr />
+    <h2>task-3</h2>
+    <pre>
+    console.log(profile.getInfo()); // "Jacob has 300 active hours!"
+
+    profile.changeUsername('Marco');
+    console.log(profile.getInfo()); // "Marco has 300 active hours!"
+
+    profile.updatePlayTime(20);
+    console.log(profile.getInfo()); // "Marco has 320 active hours!"
+    </pre>
+    <hr />
+
+    <script src="./js/task-1.js" defer></script>
+    <script src="./js/task-2.js" defer></script>
+    <script src="./js/task-3.js" defer></script>
+  </body>
+</html>
